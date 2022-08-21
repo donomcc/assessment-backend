@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Bloodveld",
+        "slayerlvl": 50,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Bloodveld.png/250px-Bloodveld.png?adc61"
+    },
+    {
+        "id": 2,
+        "name": "Gargoyle",
+        "slayerlvl": 75,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Gargoyle.png/250px-Gargoyle.png?b7dd7"
+    },
+    {
+        "id": 3,
+        "name": "Abyssal Demon",
+        "slayerlvl": 85,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Abyssal_demon.png/200px-Abyssal_demon.png?5e1ed"
+    }  
+]
