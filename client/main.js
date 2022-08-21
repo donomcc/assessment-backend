@@ -1,9 +1,24 @@
 const complimentBtn = document.getElementById("complimentButton");
 const fortuneBtn = document.getElementById("fortuneButton");
 const foodBtn = document.getElementById("foodButton");
+const upBtn = document.getElementById("btnUp");
+const downBtn = document.getElementById("btnDown");
+const slayerLvl = document.getElementById("playerslayerlvl");
 const monsterContainer = document.querySelector("#monster-section");
 const baseURL = `http://localhost:4000/api/monsters`;
 const form = document.querySelector("form");
+
+let playerLevel = 1;
+
+const increasePlayerLevel = () => {
+  playerLevel++;
+  slayerLvl.innerHTML = `Your Slayer level is ${playerLevel}`;
+};
+
+const decreasePlayerLevel = () => {
+  playerLevel--;
+  slayerLvl.innerHTML = `Your Slayer level is ${playerLevel}`;
+};
 
 const getCompliment = () => {
   axios.get("http://localhost:4000/api/compliment/").then((res) => {
@@ -83,6 +98,8 @@ function displayMonsters(arr) {
 complimentBtn.addEventListener("click", getCompliment);
 fortuneBtn.addEventListener("click", getFortune);
 foodBtn.addEventListener("click", getFood);
+downBtn.addEventListener("click", decreasePlayerLevel);
+upBtn.addEventListener("click", increasePlayerLevel);
 
 form.addEventListener("submit", submitHandler);
 

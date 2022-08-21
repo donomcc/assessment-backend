@@ -1,20 +1,32 @@
 [
     {
         "id": 1,
+        "name": "Cave crawler",
+        "slayerlvl": 10,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Cave_crawler_%281%29.png/280px-Cave_crawler_%281%29.png?47f4c"
+    },
+    {
+        "id": 2,
         "name": "Bloodveld",
         "slayerlvl": 50,
         "imageURL": "https://oldschool.runescape.wiki/images/thumb/Bloodveld.png/250px-Bloodveld.png?adc61"
     },
     {
-        "id": 2,
+        "id": 3,
+        "name": "Cave Horror",
+        "slayerlvl": 58,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Cave_horror_%281%29.png/240px-Cave_horror_%281%29.png?a57e4"
+    },
+    {
+        "id": 4,
         "name": "Gargoyle",
         "slayerlvl": 75,
         "imageURL": "https://oldschool.runescape.wiki/images/thumb/Gargoyle.png/250px-Gargoyle.png?b7dd7"
     },
     {
-        "id": 3,
+        "id": 5,
         "name": "Abyssal Demon",
         "slayerlvl": 85,
         "imageURL": "https://oldschool.runescape.wiki/images/thumb/Abyssal_demon.png/200px-Abyssal_demon.png?5e1ed"
-    }  
+    }
 ]
